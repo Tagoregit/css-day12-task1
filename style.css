@@ -1,0 +1,23 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+    border: 2px solid;
+}
+@media screen and (max-width:500px) {
+    p{
+        text-align: center;
+    }
+     
+}
+@media screen and (min-width:500px) {
+    p{
+        text-align: left; 
+    }
+     
+}
